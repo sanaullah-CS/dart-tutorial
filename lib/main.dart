@@ -1,3 +1,4 @@
+import 'dart:io';
 void main() {
   //this is my firts task
   //this is my family names
@@ -10,7 +11,7 @@ void main() {
   //this is my 2nd task
   print("Create square shape");
   print("**********-");
-  print("*   8     -*");
+  print("*        -*");
   print("*        -*");
   print("*       - *");
   print("*      -  *");
@@ -27,6 +28,7 @@ void main() {
   //this is my 4th task
   print("Create rectangle shape");
   print("**********");
+  print("*        *");
   print("*        *");
   print("*        *");
   print("**********");
@@ -51,4 +53,10 @@ void main() {
   //this is my 7th task
   print("create a pyramid shape");
   print("        *\n       ***\n      *****\n     *******\n    *********\n   ***********");
+  print("Enter Your age:");
+  int age = int.parse(stdin.readLineSync()!);
+  print("Your Age is: $age");
+  var name= "Sanaullah";
+  print("Your name is: $name");
+  print(name.runtimeType);
 }
