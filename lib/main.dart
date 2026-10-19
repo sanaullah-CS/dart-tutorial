@@ -10,14 +10,14 @@ void main() {
   print("5. My name is: SANAULLAH AWAN");
   //this is my 2nd task
   print("Create square shape");
-  print("**********-");
-  print("*        -*");
-  print("*        -*");
-  print("*       - *");
-  print("*      -  *");
-  print("*     -   *");
-  print("**********-");
-  //this is my 3rd task
+  print("**********");
+  print("*         *");
+  print("*         *");
+  print("*         *");
+  print("*         *");
+  print("*         *");
+  print("***********");
+  //this is my 3rd task   
   print("Create triangle shape");
   print("     *");
   print("    * *");
@@ -46,17 +46,16 @@ void main() {
   print("   *   ");
   print("  * *  ");
   print(" *   * ");
-  print("*********");
+  print("********");
   print(" *   * ");
   print("  * *  ");
   print("   *   ");
   //this is my 7th task
   print("create a pyramid shape");
   print("        *\n       ***\n      *****\n     *******\n    *********\n   ***********");
+  int age = 23;
   print("Enter Your age:");
-  int age = int.parse(stdin.readLineSync()!);
   print("Your Age is: $age");
   var name= "Sanaullah";
   print("Your name is: $name");
-  print(name.runtimeType);
 }
